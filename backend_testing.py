@@ -16,10 +16,3 @@ if (res.ok):
             print(value)
             break
 
-# res = requests.put('http://127.0.0.1:5000/data/' + str(user_id), json={"user_name": "odel"})
-# if (res.ok):
-#     print(res.json())
-#
-# res = requests.delete('http://127.0.0.1:5000/data/' + str(user_id))
-# if (res.ok):
-#     print(res.json())
