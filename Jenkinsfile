@@ -21,6 +21,12 @@ pipeline {
                        bat 'start /min python web_app.py'
 
                 }
+                script {
+
+                       bat 'python backend_testing.py'
+
+                }
+
 
             }
         }
