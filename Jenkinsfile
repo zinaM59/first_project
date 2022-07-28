@@ -36,6 +36,11 @@ pipeline {
                       bat 'python combined_testing.py'
 
                 }
+                script {
+
+                      bat 'python clean_environment.py'
+
+                }
 
 
             }
