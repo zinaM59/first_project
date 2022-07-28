@@ -2,7 +2,7 @@ import requests  # HTTP library for get/ post
 
 
 url = "http://127.0.0.1:5000"  # api endpoint'
-user_id = 15
+user_id = 16
 user_name = "example"
 #post method
 res = requests.post('http://127.0.0.1:5000/data/' + str(user_id), json={"user_name": user_name})
