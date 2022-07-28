@@ -31,6 +31,11 @@ pipeline {
                        bat 'python frontend_testing.py'
 
                 }
+                script {
+
+                      bat 'python combined_testing.py'
+
+                }
 
 
             }
